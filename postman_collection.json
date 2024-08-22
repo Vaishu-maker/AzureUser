@@ -1,0 +1,28 @@
+{
+  "info": {
+    "name": "Sample Collection",
+    "description": "Sample Postman collection for regression testing.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Test Root Endpoint",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://node_web:3000/",
+          "protocol": "http",
+          "host": [
+            "node_web"
+          ],
+          "port": "3000",
+          "path": [
+            ""
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
