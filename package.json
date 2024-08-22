@@ -1,0 +1,13 @@
+{
+  "name": "node-mongo-regression-test",
+  "version": "1.0.0",
+  "description": "NodeJS app with MongoDB and regression testing using Newman.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  }
+}
